@@ -260,7 +260,9 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.aw2013
+    lights.msm8952 \
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service
 
 # Media
 PRODUCT_COPY_FILES += \
