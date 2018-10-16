@@ -358,7 +358,7 @@
    </string-array>
 
     <!-- Should the pinner service pin the Camera application? -->
-    <bool name="config_pinnerCameraApp">true</bool>
+    <!-- <bool name="config_pinnerCameraApp">true</bool> -->
 
     <!-- Flag specifying whether VoLTE is available on device -->
     <bool name="config_device_volte_available">true</bool>
