@@ -385,6 +385,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service.widevine
 
+# VR
+PRODUCT_PACKAGES += \
+    android.hardware.vr@1.0-impl:64 \
+    android.hardware.vr@1.0-service \
+    vr.msm8952
+
 # WiFi HAL
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
