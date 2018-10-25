@@ -172,8 +172,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0_vendor
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # Face detection extension
 PRODUCT_PACKAGES += \
@@ -298,10 +298,6 @@ PRODUCT_PACKAGES += \
 # Privapp Whitelist
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
-
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-service-qti
 
 # QPerformance
 PRODUCT_BOOT_JARS += QPerformance
